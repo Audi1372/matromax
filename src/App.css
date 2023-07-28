@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+ @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+ @import "../node_modules/@syncfusion/ej2-notifications/styles/material.css";
+
+
+.spanbutton{
+  color: white;
+  background-color: rgb(220, 50, 50);
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin-bottom:10px ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.latencybutton{
+border: 2px solid gray;
+border-radius: 10px;
+width: 80px;
+  height: 40px;
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.app{
+  background-color: black;
+}
+.notification{
+  color:yellow;
+  position: relative;
+width: 80px;
+  height: 40px;
+  background-color: black;
+  border: 2px solid yellow;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .notification::after {
+  content:attr(current-content);
+   color: #008cff;
+   height: 40px;
+   left: 45%;
+   position: absolute;
+   top: 45%;
+   width: 30%;
+ } */
+
+ 
+.remainder{
+  border-radius: 50%;
+  height: 15px;
+    right: 40%;
+    position: absolute;
+    bottom: 100%;
+    width:10px;
+    background-color: yellow;
+    
 }
