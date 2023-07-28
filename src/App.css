@@ -1,0 +1,56 @@
+ @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+ @import "../node_modules/@syncfusion/ej2-notifications/styles/material.css";
+
+
+.spanbutton{
+  color: white;
+  background-color: rgb(220, 50, 50);
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin-bottom:10px ;
+}
+
+.latencybutton{
+border: 2px solid gray;
+border-radius: 10px;
+width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+.app{
+  background-color: black;
+}
+.notification{
+  color:yellow;
+  position: relative;
+width: 80px;
+  height: 40px;
+  background-color: black;
+  border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+/* .notification::after {
+  content:attr(current-content);
+   color: #008cff;
+   height: 40px;
+   left: 45%;
+   position: absolute;
+   top: 45%;
+   width: 30%;
+ } */
+
+ 
+.remainder{
+  border-radius: 50%;
+  height: 15px;
+    right: 40%;
+    position: absolute;
+    bottom: 100%;
+    width:10px;
+    background-color: yellow;
+    
+}
